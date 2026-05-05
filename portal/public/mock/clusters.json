@@ -1,0 +1,12 @@
+{
+  "healthy": [
+    { "device_id": "device_1" }
+  ],
+  "warning": [
+    { "device_id": "device_2" }
+  ],
+  "offline": [
+    { "device_id": "device_3" }
+  ],
+  "unknown": []
+}

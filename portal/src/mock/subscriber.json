@@ -1,0 +1,13 @@
+{
+  "subscriber_id": 1,
+  "subscriber_name": "Lucie",
+  "organization": "Climate Research Lab",
+  "email": "lucie@example.com",
+  "device_id": "ESP32_001",
+  "wants_anomaly_alerts": true,
+  "wants_forecast_alerts": true,
+  "wants_risk_score_alerts": true,
+  "last_seen_alert_id": 41,
+  "created_at": "2026-03-29T18:00:00",
+  "updated_at": "2026-03-29T18:00:00"
+}

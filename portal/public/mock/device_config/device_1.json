@@ -1,0 +1,12 @@
+{
+  "device_id": "device_1",
+  "sampling_interval_sec": 60,
+  "thresholds": {
+    "mq135_ppm_warning": 200,
+    "mq135_ppm_critical": 260,
+    "water_level_warning": 25,
+    "water_level_critical": 40
+  },
+  "firmware_version": "1.2.3",
+  "location_label": "Downtown sensor"
+}

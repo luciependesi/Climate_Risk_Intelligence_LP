@@ -1,0 +1,18 @@
+.cluster-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.cluster {
+  background: var(--bg-card);
+  padding: 1rem;
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+}
+
+.cluster-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+}

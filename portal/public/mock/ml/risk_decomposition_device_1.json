@@ -1,0 +1,11 @@
+{
+  "device_id": "device_1",
+  "risk_score": 27.4,
+  "components": {
+    "air_quality": 0.32,
+    "water_level": 0.18,
+    "battery": 0.12,
+    "signal_strength": 0.08,
+    "environmental_variability": 0.30
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "clusters": [
+    {
+      "cluster_id": "downtown",
+      "label": "Downtown",
+      "devices": ["device_1"],
+      "avg_risk_score": 29.3,
+      "max_risk_score": 41.2,
+      "anomaly_rate": 0.15
+    },
+    {
+      "cluster_id": "riverfront",
+      "label": "Riverfront",
+      "devices": ["device_2"],
+      "avg_risk_score": 61.7,
+      "max_risk_score": 88.4,
+      "anomaly_rate": 0.32
+    },
+    {
+      "cluster_id": "hillside",
+      "label": "Hillside",
+      "devices": ["device_3"],
+      "avg_risk_score": 90.1,
+      "max_risk_score": 92.1,
+      "anomaly_rate": 0.48
+    }
+  ]
+}

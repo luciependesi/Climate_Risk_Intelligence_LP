@@ -1,0 +1,9 @@
+[
+  {
+    "id": "device_1",
+    "name": "Demo Node",
+    "lat": 40.44,
+    "lng": -79.99,
+    "status": "HEALTHY"
+  }
+]

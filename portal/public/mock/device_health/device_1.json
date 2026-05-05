@@ -1,0 +1,8 @@
+{
+  "device_id": "device_1",
+  "status": "healthy",
+  "last_seen": "2026-04-15T20:00:00Z",
+  "avg_interval_sec": 58.2,
+  "anomaly_rate": 0.12,
+  "uptime_percent": 98.4
+}

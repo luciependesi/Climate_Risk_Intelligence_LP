@@ -1,0 +1,12 @@
+{
+  "device_id": "device_3",
+  "sampling_interval_sec": 120,
+  "thresholds": {
+    "mq135_ppm_warning": 180,
+    "mq135_ppm_critical": 240,
+    "water_level_warning": 30,
+    "water_level_critical": 45
+  },
+  "firmware_version": "0.9.5",
+  "location_label": "Hillside sensor"
+}

@@ -1,0 +1,27 @@
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: 280px 1.5fr 1.5fr;
+  gap: 16px;
+  padding: 16px;
+}
+
+.left-col {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.map-container {
+  height: 420px;
+  border-radius: var(--radius);
+  overflow: hidden;
+  background: var(--bg-panel);
+  box-shadow: var(--shadow);
+}
+
+/* Mobile */
+@media (max-width: 900px) {
+  .dashboard-grid {
+    grid-template-columns: 1fr;
+  }
+}

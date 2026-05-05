@@ -1,0 +1,33 @@
+syntax = "proto3";
+
+package climate;
+
+// Uplink from ESP32-S3 LoRa node
+message SensorReading {
+  // Environmental
+  float temperature_c      = 1;
+  float humidity_percent   = 2;
+  float pressure_hpa       = 3;
+
+  // Air / water sensors
+  float air_quality_raw    = 4;
+  float rain_level_raw     = 5;
+  float water_level_raw    = 6;
+
+  // Power
+  uint32 battery_mv        = 7;
+
+  // GNSS
+  bool  gnss_enabled       = 8;
+  bool  gnss_fix_valid     = 9;
+  double latitude_deg      = 10;
+  double longitude_deg     = 11;
+  float altitude_m         = 12;
+  float hdop               = 13;
+
+  // Meta
+  uint64 timestamp_ms      = 14;
+
+  // ⭐ Add this
+  uint32 device_id         = 15;
+}

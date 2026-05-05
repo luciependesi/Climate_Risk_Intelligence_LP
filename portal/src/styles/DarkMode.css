@@ -1,0 +1,36 @@
+:root {
+  --bg: #0d1117;
+  --card: #161b22;
+  --text: #e6edf3;
+  --border: #30363d;
+  --accent: #3b82f6;
+}
+
+body.dark {
+  background: var(--bg);
+  color: var(--text);
+}
+
+.card,
+.live-card,
+.cluster,
+.analytics-card {
+  background: var(--card) !important;
+  color: var(--text) !important;
+  border: 1px solid var(--border);
+}
+
+.tab-bar {
+  background: var(--card);
+  border-bottom: 1px solid var(--border);
+}
+
+.tab-bar button {
+  background: var(--border);
+  color: var(--text);
+}
+
+.tab-bar button.active {
+  background: var(--accent);
+  color: white;
+}

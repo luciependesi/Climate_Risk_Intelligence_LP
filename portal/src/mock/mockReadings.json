@@ -1,0 +1,8 @@
+[
+  {
+    "device_id": "dev123",
+    "timestamp_ms": 0,
+    "temperature_c": 22.5,
+    "humidity_pct": 55.2
+  }
+]

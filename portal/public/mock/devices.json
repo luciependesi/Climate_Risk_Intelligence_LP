@@ -1,0 +1,26 @@
+[
+  {
+    "device_id": "device_1",
+    "health": "healthy",
+    "battery_v": 3.78,
+    "rssi": -63,
+    "latitude": 40.440624,
+    "longitude": -79.995888
+  },
+  {
+    "device_id": "device_2",
+    "health": "warning",
+    "battery_v": 3.41,
+    "rssi": -72,
+    "latitude": 40.447200,
+    "longitude": -79.982300
+  },
+  {
+    "device_id": "device_3",
+    "health": "offline",
+    "battery_v": 3.05,
+    "rssi": -90,
+    "latitude": 40.431900,
+    "longitude": -80.010400
+  }
+]

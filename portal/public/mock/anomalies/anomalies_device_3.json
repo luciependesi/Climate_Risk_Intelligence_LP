@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "device_id": "device_3",
+    "timestamp": "2026-04-15T18:05:00Z",
+    "type": "device_offline",
+    "severity": "critical",
+    "details": {
+      "last_seen": "2026-04-15T18:00:00Z"
+    }
+  }
+]

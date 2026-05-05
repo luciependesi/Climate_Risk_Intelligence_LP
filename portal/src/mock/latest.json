@@ -1,0 +1,10 @@
+{
+  "device_id": "ESP32_001",
+  "timestamp_ms": 1711740000000,
+  "temperature_c": 22.5,
+  "humidity_pct": 48.2,
+  "pressure_hpa": 1012.3,
+  "air_quality_ppm": 180,
+  "water_level": 12.4,
+  "is_virtual": false
+}

@@ -1,0 +1,23 @@
+[
+  {
+    "bucket": "2026-04-15T18:00:00Z",
+    "avg_temp": 21.7,
+    "avg_humidity": 46.0,
+    "avg_pressure": 1011.8,
+    "avg_mq135": 152
+  },
+  {
+    "bucket": "2026-04-15T19:00:00Z",
+    "avg_temp": 22.1,
+    "avg_humidity": 45.1,
+    "avg_pressure": 1012.1,
+    "avg_mq135": 147
+  },
+  {
+    "bucket": "2026-04-15T20:00:00Z",
+    "avg_temp": 22.4,
+    "avg_humidity": 44.8,
+    "avg_pressure": 1012.3,
+    "avg_mq135": 145
+  }
+]

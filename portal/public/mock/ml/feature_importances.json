@@ -1,0 +1,12 @@
+{
+  "model": "RandomForestClassifier",
+  "importances": {
+    "mq135_ppm": 0.31,
+    "water_level": 0.22,
+    "battery_v": 0.14,
+    "rssi": 0.11,
+    "temperature_c": 0.09,
+    "humidity": 0.07,
+    "pressure_hpa": 0.06
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "device_id": "device_2",
+  "sampling_interval_sec": 90,
+  "thresholds": {
+    "mq135_ppm_warning": 220,
+    "mq135_ppm_critical": 280,
+    "water_level_warning": 20,
+    "water_level_critical": 35
+  },
+  "firmware_version": "1.1.0",
+  "location_label": "Riverfront sensor"
+}

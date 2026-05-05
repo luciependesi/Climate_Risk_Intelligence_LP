@@ -1,0 +1,35 @@
+[
+  {
+    "alert_id": 42,
+    "device_id": "ESP32_001",
+    "timestamp": "2026-03-29T20:31:00",
+    "severity": "warning",
+    "alert_message": "Elevated climate risk or anomaly detected.",
+    "risk_score": 62,
+    "anomaly_flag": 0,
+    "forecast_risk": 14.2,
+    "created_at": "2026-03-29T20:31:01"
+  },
+  {
+    "alert_id": 41,
+    "device_id": "ESP32_001",
+    "timestamp": "2026-03-29T19:55:00",
+    "severity": "critical",
+    "alert_message": "Critical climate risk detected.",
+    "risk_score": 88,
+    "anomaly_flag": 1,
+    "forecast_risk": 18.4,
+    "created_at": "2026-03-29T19:55:01"
+  },
+  {
+    "alert_id": 40,
+    "device_id": "ESP32_001",
+    "timestamp": "2026-03-29T19:20:00",
+    "severity": "info",
+    "alert_message": "Minor anomaly detected.",
+    "risk_score": 45,
+    "anomaly_flag": 1,
+    "forecast_risk": 10.1,
+    "created_at": "2026-03-29T19:20:01"
+  }
+]

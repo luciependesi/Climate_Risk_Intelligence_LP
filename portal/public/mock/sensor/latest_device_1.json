@@ -1,0 +1,13 @@
+{
+  "device_id": "device_1",
+  "timestamp": "2026-04-15T20:00:00Z",
+  "temperature_c": 22.4,
+  "humidity": 44.8,
+  "pressure_hpa": 1012.3,
+  "mq135_ppm": 145,
+  "water_level": 12.5,
+  "battery_v": 3.72,
+  "rssi": -67,
+  "latitude": 40.440624,
+  "longitude": -79.995888
+}

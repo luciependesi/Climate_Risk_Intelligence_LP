@@ -1,0 +1,15 @@
+{
+  "id": 1,
+  "name": "Lucie",
+  "email": "lucie@example.com",
+  "role": "Engineer",
+  "organization": "CMU Climate Lab",
+  "region": "US-East",
+  "subscription_level": "Pro",
+  "devices": ["device_1", "device_2", "device_3"],
+  "preferences": {
+    "theme": "light",
+    "units": "metric",
+    "alerts_enabled": true
+  }
+}

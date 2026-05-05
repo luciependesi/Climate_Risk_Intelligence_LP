@@ -1,0 +1,13 @@
+.header-right select[multiple] {
+  height: 70px;
+  width: 120px;
+  padding: 0.4rem;
+  border-radius: 6px;
+  background: var(--surface-2);
+  color: var(--text-primary);
+  border: 1px solid var(--border-subtle);
+}
+
+.header-right select[multiple] option {
+  padding: 0.2rem;
+}

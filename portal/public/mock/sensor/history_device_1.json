@@ -1,0 +1,23 @@
+[
+  {
+    "timestamp": "2026-04-15T19:00:00Z",
+    "temperature_c": 21.8,
+    "humidity": 46.1,
+    "pressure_hpa": 1011.9,
+    "mq135_ppm": 150
+  },
+  {
+    "timestamp": "2026-04-15T19:30:00Z",
+    "temperature_c": 22.0,
+    "humidity": 45.3,
+    "pressure_hpa": 1012.0,
+    "mq135_ppm": 148
+  },
+  {
+    "timestamp": "2026-04-15T20:00:00Z",
+    "temperature_c": 22.4,
+    "humidity": 44.8,
+    "pressure_hpa": 1012.3,
+    "mq135_ppm": 145
+  }
+]

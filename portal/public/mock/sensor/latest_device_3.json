@@ -1,0 +1,13 @@
+{
+  "device_id": "device_3",
+  "timestamp": "2026-04-15T20:00:00Z",
+  "temperature_c": null,
+  "humidity": null,
+  "pressure_hpa": null,
+  "mq135_ppm": null,
+  "water_level": null,
+  "battery_v": 3.05,
+  "rssi": -90,
+  "latitude": 40.431900,
+  "longitude": -80.010400
+}

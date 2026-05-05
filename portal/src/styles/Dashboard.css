@@ -1,0 +1,125 @@
+/* -------------------------------------------------------
+   Dashboard Container
+------------------------------------------------------- */
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 20px;
+}
+
+/* -------------------------------------------------------
+   Fade-in animation for all cards
+------------------------------------------------------- */
+.fade-in {
+  animation: fadeIn 0.35s ease-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* -------------------------------------------------------
+   Map marker selection animation
+------------------------------------------------------- */
+.map-marker-selected {
+  animation: markerPulse 0.6s ease-out;
+}
+
+@keyframes markerPulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.2); }
+  100% { transform: scale(1); }
+}
+
+/* -------------------------------------------------------
+   Offline device glow (optional)
+------------------------------------------------------- */
+.device-offline {
+  animation: offlinePulse 1.2s ease-in-out infinite;
+}
+
+@keyframes offlinePulse {
+  0% { box-shadow: 0 0 0px rgba(220, 38, 38, 0.4); }
+  50% { box-shadow: 0 0 12px rgba(220, 38, 38, 0.7); }
+  100% { box-shadow: 0 0 0px rgba(220, 38, 38, 0.4); }
+}
+
+/* -------------------------------------------------------
+   Cluster anomaly highlight
+------------------------------------------------------- */
+.cluster-anomaly {
+  border: 2px solid #dc2626 !important;
+  animation: anomalyPulse 0.8s ease-in-out infinite;
+}
+
+@keyframes anomalyPulse {
+  0% { box-shadow: 0 0 0px rgba(220, 38, 38, 0.3); }
+  50% { box-shadow: 0 0 10px rgba(220, 38, 38, 0.6); }
+  100% { box-shadow: 0 0 0px rgba(220, 38, 38, 0.3); }
+}
+
+/* -------------------------------------------------------
+   Responsive layout helpers (optional)
+------------------------------------------------------- */
+@media (max-width: 1024px) {
+  .overview-col,
+  .timeline-col,
+  .alerts-col {
+    min-width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .map-col {
+    min-height: 300px;
+  }
+}
+
+/* -------------------------------------------------------
+   Legacy grid wrappers (safe to keep for compatibility)
+------------------------------------------------------- */
+.top-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.mid-row {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 20px;
+}
+
+.bottom-row {
+  margin-top: 10px;
+}
+
+.dashboard-col {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.overview-col {
+  min-width: 320px;
+}
+
+.timeline-col {
+  min-width: 300px;
+}
+
+.alerts-col {
+  min-width: 300px;
+}
+
+.map-col {
+  min-height: 400px;
+}

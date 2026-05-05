@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "device_id": "device_2",
+    "type": "warning",
+    "message": "Air quality spike detected.",
+    "timestamp": "2026-04-15T19:40:00Z",
+    "risk_score": 58
+  },
+  {
+    "id": 2,
+    "device_id": "device_2",
+    "type": "critical",
+    "message": "Critical climate risk detected.",
+    "timestamp": "2026-04-15T20:00:00Z",
+    "risk_score": 88
+  }
+]

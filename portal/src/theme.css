@@ -1,0 +1,65 @@
+/*CSS Variables(colors, spacing, fonts)*/
+export const theme = {
+  colors: {
+    bg: "#0d1117",
+    bgCard: "#161b22",
+    text: "#e6edf3",
+    textMuted: "#8b949e",
+    primary: "#58a6ff",
+    danger: "#ff4d4f",
+    warning: "#fa8c16",
+    success: "#73d13d",
+    border: "#30363d",
+  },
+
+  spacing: {
+    xs: "4px",
+    sm: "8px",
+    md: "16px",
+    lg: "24px",
+  },
+
+  radius: {
+    sm: "6px",
+    md: "10px",
+    lg: "14px",
+  },
+
+  shadow: {
+    card: "0 2px 8px rgba(0,0,0,0.25)",
+  },
+
+  transitions: {
+    fast: "0.15s ease",
+    medium: "0.3s ease",
+  },
+
+  typography: {
+    h1: "24px",
+    h2: "20px",
+    h3: "16px",
+    body: "14px",
+  },
+};
+:root {
+  --bg: #0f0f0f;
+  --text: #e6e6e6;
+  --card-bg: #1a1a1a;
+  --border: #2a2a2a;
+
+  --critical: #e74c3c;
+  --warning: #f1c40f;
+  --info: #3498db;
+  --success: #2ecc71;
+
+  --radius: 10px;
+  --transition: 0.3s ease;
+}
+
+/* Light theme override */
+.light {
+  --bg: #f7f7f7;
+  --text: #222;
+  --card-bg: #ffffff;
+  --border: #dddddd;
+}
