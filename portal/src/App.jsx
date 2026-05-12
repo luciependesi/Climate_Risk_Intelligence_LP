@@ -1,6 +1,11 @@
+/*
+ * © 2026 Lucie Pendesi. All rights reserved.
+ * Licensed under the MIT License. See the LICENSE file for details.
+ */
 //Global Layout + Providers + Routing 
 // src/App.jsx
 // src/App.jsx
+
 import React from "react";
 import { BrowserRouter } from "react-router-dom";
 import AppRoutes from "./routes/Routes";

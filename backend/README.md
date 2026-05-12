@@ -1,4 +1,5 @@
 📁 backend/README.md
+© 2026 Lucie Pendesi. All rights reserved.
 # Climate Risk Intelligence Backend
 
 This backend powers the Climate Risk Intelligence pipeline from ESP32 LoRa nodes to a TimescaleDB + Grafana stack.

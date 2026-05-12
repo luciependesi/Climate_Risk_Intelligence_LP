@@ -1,3 +1,5 @@
+# © 2026 Lucie Pendesi. All rights reserved.
+# Licensed under the MIT License. See the LICENSE file for details.
 from fastapi import FastAPI, APIRouter, Request
 from fastapi.middleware.cors import CORSMiddleware
 

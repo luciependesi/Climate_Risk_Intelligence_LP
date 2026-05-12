@@ -1,3 +1,5 @@
+# © 2026 Lucie Pendesi. All rights reserved.
+# Licensed under the MIT License. See the LICENSE file for details.
 # backend/app/routes/sensor_ingest.py
 from fastapi import APIRouter, Depends, HTTPException, status
 from sqlalchemy.ext.asyncio import AsyncSession

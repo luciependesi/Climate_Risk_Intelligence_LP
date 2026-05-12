@@ -1,3 +1,5 @@
+# © 2026 Lucie Pendesi. All rights reserved.
+# Licensed under the MIT License. See the LICENSE file for details.
 # app/api/websocket.py
 print("🔥 WEBSOCKET FILE LOADED")
 import asyncio

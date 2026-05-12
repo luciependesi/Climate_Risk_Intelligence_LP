@@ -1,3 +1,5 @@
+# © 2026 Lucie Pendesi. All rights reserved.
+# Licensed under the MIT License. See the LICENSE file for details.
 #database models for the device and sensor readings
 # backend/app/models.py
 from datetime import datetime

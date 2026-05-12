@@ -1,5 +1,0 @@
-cd C:\Users\lucie\Downloads\nanopb
-python -m uvicorn generator.api.main:app
-
-cd C:\Users\lucie\Downloads\nanopb
-python test_real_message.py

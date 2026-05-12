@@ -1,3 +1,9 @@
+/*
+ * © 2026 Lucie Pendesi. All rights reserved.
+ * Licensed under the MIT License. See the LICENSE file for details.
+ */
+
+
 export const lightTheme = {
   mode: "light",
   bg: "#f5f5f5",

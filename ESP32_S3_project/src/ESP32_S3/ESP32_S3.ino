@@ -1,5 +1,9 @@
-#define ARDUINO_USB_CDC_ON_BOOT 1
+/*
+ * © 2026 Lucie Pendesi. All rights reserved.
+ * Licensed under the MIT License. See the LICENSE file for details.
+ */
 
+#define ARDUINO_USB_CDC_ON_BOOT 1
 #include <Arduino.h>
 #include <WiFi.h>
 #include <HTTPClient.h>

@@ -1,3 +1,5 @@
+# © 2026 Lucie Pendesi. All rights reserved.
+# Licensed under the MIT License. See the LICENSE file for details.
 # FastAPI ingestion + frontend endpoints for sensor data.
 # app/api/ingest.py
 # app/api/ingest.py

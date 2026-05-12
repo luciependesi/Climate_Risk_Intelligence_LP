@@ -1,3 +1,4 @@
+![Security Scan](https://github.com/luciependesi/Climate_Risk_Intelligence_LP/actions/workflows/security.yml/badge.svg)
 <<<<<<< HEAD
 © 2026 Lucie Pendesi. All rights reserved.
 Verifiable Climate Risk Intelligence as a Public Subscription Service A modular,
