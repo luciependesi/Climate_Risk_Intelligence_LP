@@ -49,3 +49,4 @@ htmlcov/
 *.tmp
 *.temp
 *.bak
+.Rproj.user
